@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Job details - Caritas Youth Jobs Portal">
+  <title>Job Details | Caritas Youth Jobs Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap">
+  <a class="brand" href="index.html"><div class="brand-mark">✚</div><div><strong>Caritas Youth Jobs Portal</strong><span>Rawalpindi & Islamabad</span></div></a>
+  <button class="menu-btn" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+  <nav id="mainNav"><a href="index.html">Home</a><a class="active" href="index.html#jobs">Jobs</a><a href="index.html#categories">Categories</a><a href="index.html#about">About</a></nav>
+</div></header>
+<main>
+  <section class="detail-hero"><div class="container"><a class="back-link" href="index.html#jobs">← Back to jobs</a><p class="eyebrow">JOB DETAILS</p><div id="detailTitle"></div></div></section>
+  <section class="container detail-layout" id="jobDetail"></section>
+</main>
+<footer><div class="copyright">© 2026 Caritas Youth Jobs Portal — Version 1.2</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+<script>renderJobDetail();</script>
+</body>
+</html>
